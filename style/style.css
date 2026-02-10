@@ -280,6 +280,7 @@ body {
     width: 1400px;
     margin: 0 auto;
     position: relative;
+    margin-bottom: 100px;
 }
 
 .holiday-container-text {
@@ -350,4 +351,49 @@ body {
     position: absolute;
     left: 50%;
     z-index: 1;
+}
+
+/*Our Awesome Portfolio section start here */
+
+.Portfolio-section-container {
+    width: 1400px;
+    height: 1150px;
+    margin: 0 auto;
+}
+
+.portfolio-content-text h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+
+}
+
+.portfolio-content-text h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 15px 0 15px 0;
+}
+
+.portfolio-content-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #070211;
+    width: 896px;
+    margin-bottom: 50px;
+}
+
+.items {
+    width: 424px;
+    height: 470px;
+}
+
+.portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.items img {
+    width: 100%;
+    height: 100%;
 }

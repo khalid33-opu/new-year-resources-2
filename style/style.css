@@ -94,7 +94,7 @@ body {
 /* Midnight party section here */
 .Midnight-container {
     height: 600px;
-    width: 1300px;
+    width: 1400px;
     margin: 0 auto;
     margin-top: 30px;
     display: flex;
@@ -148,4 +148,127 @@ body {
     justify-content: center;
     align-items: center;
 
+}
+
+/* new park hotel section  */
+.Hotel-container {
+    width: 1400px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hotel-section-title {
+    font-size: 32px;
+    width: 600;
+}
+
+.hotel-containt {
+    width: 550px;
+    height: 272px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hotel-contant-text {
+    color: #FF0000;
+}
+
+.hotel-containt button {
+    margin-right: 50px;
+}
+
+/* NEW BEST OFFER section start here */
+.best-offer-container {
+    height: 463px;
+    width: 1400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fast-part {
+    width: 33.3%;
+    height: 463px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.fast-part h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FF0000;
+    margin-right: 245px;
+}
+
+.fast-part h2 {
+    font-size: 49px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-right: 135px;
+}
+
+.fast-part p {
+    font-size: 20px;
+    color: #070211;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.second-part {
+    width: 33.3%;
+    height: 463px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid red;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.second-part img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-part {
+    width: 33.3%;
+    height: 463px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.third-part h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-right: 200px;
+}
+
+.third-part p {
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.third-part img {
+    margin-right: 200px;
 }

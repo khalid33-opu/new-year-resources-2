@@ -196,6 +196,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .fast-part {
@@ -271,4 +272,82 @@ body {
 
 .third-part img {
     margin-right: 200px;
+}
+
+/* Holidays Sale 50% section start here*/
+.holiday-section-container {
+    height: 980px;
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.holiday-container-text {
+    height: 260px;
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.holiday-container-text h4 {
+    font-size: 24px;
+}
+
+.holiday-container-text h1 {
+    font-size: 72px;
+}
+
+.holiday-container-text p {
+    font-size: 20px;
+    color: #070211;
+}
+
+.holiday-container-text span {
+    color: #FF0000;
+}
+
+.color-content {
+    width: 1400px;
+    height: 230px;
+    background-color: #FF0000;
+    position: absolute;
+    top: 77%;
+    border-radius: 15px;
+}
+
+.gift-box {
+    width: 577px;
+    height: 674px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    left: 8%;
+}
+
+.img-new-year {
+    width: 577px;
+    height: 674px;
+    position: absolute;
+    z-index: 1;
+    left: 115%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 15px;
+}
+
+.img-new-year img {
+    width: 500px;
+    height: 510px;
+}
+
+.discount {
+    position: absolute;
+    left: 50%;
+    z-index: 1;
 }
